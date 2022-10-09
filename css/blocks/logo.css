@@ -1,6 +1,9 @@
 .logo {
     display: block;
-    position: absolute;
-    top: 21px;
-    left: 0;
+    margin-right: 79px;
+}
+
+.logo-services {
+    display: block;
+    margin-right: 66px;
 }

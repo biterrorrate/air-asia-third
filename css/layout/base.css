@@ -1,13 +1,13 @@
-/* html, body {
+html, body {
     height: 100%;
-} */
+}
 
 body {
     color: #fff;
     font-size: 14px;
     line-height: 1.42;
     font-family: 'Open Sans', Helvetica;
-    background: hsl(196, 100%, 6%) ;
+    background: hsl(196, 100%, 6%);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0px;
@@ -53,18 +53,22 @@ table {
     /* margin-top: 0px; */
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
 
 .wrapper {
     overflow: hidden;
-    min-width: 1140px;
-    /* min-height: 100%;
+    min-width: 1200px;
+    min-height: 100%;
     display: flex;
-    flex-direction: column; */
+    flex-direction: column;
 }
 
-/* .wrapper__content {
+.wrapper__content {
     flex: 1;
-} */
+}
 
 .main-page-wrapper {
     background: url('./../../img/decore/1.png') center top no-repeat, url("./../../img/decore/2.png") center bottom 189px no-repeat;
@@ -73,5 +77,4 @@ table {
 .container {
     margin: 0 auto;
     width: 1140px;
-    /* display: flex; */
 }

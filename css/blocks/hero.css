@@ -2,8 +2,15 @@
     margin-bottom: 244px;
 }
 
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 530px;
+}
+
 .hero__text-section {
-    width: 551px;
+    width: 50%;
 }
 
 .hero__title {
@@ -17,7 +24,7 @@
     font-size: 18px;
     margin-bottom: 29px;}
 
-.hero__btn {
+.btn, .hero__btn {
     background: #f5170e;
     border-radius: 35px;
     padding: 18px 40px;

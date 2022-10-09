@@ -1,9 +1,16 @@
 .header {
-    position: relative;
-    height: 80px;
-    margin-bottom: 108px;
-    margin-top: 7px;
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 27px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
 }
